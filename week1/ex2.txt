@@ -1,0 +1,14 @@
+    1  gcc
+    2  cd week1
+    3  gcc -v
+    4  sudo apt install gcc
+    5  gcc
+    6  sudo apt gcc
+    7  sudo apt install gcc
+    8  ls
+    9  ls /usr/bin
+   10  ls /usr/bin > ex1.txt
+   11  grep gcc ex1.txt
+   12  grep gcc ex1.txt > exxnew1.txt
+   13  sort -r exxnew1.txt > ex1.txt
+   14  history > ex2.txt
