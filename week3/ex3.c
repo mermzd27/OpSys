@@ -29,16 +29,6 @@ int main()
     HEAD = generate(numberOfNodes);
     print_list(HEAD);
    
-    /*printf("\nChoose element after which to insert (from 1 to %d)",numberOfNodes);
-    scanf("%d", &postionForInsertion);
-    if(postionForInsertion>numberOfNodes||postionForInsertion<0) {
-            printf("you entered incorrect postion, check again, please\n");
-    }
-    if(postionForInsertion==0){
-    HEAD=deleteIfHead(HEAD, 6);
-    print(HEAD);
-    }*/
-    
     printf("\nenter one number to insert\n");
     scanf("%d", &numberToInsert);
     printf("\nenter position to insert (from 1 to %d)",numberOfNodes+1);
