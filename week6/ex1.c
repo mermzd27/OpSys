@@ -43,7 +43,7 @@ int main(){
 
 	for(i=0;i<numberOfProcesses;i++)
 	{
-		printf("Process %d arrivalTime %d burstTime %d completionTime %d turnAroundTime %d waitingTime %d\n",i+1,arrivalTime[i],burstTime[i],completionTime[i],turnAroundTime[i],waitingTime[i]);
+		printf("Process %d\n  arrivalTime %d\n  burstTime %d\n  completionTime %d\n  turnAroundTime %d\n  waitingTime %d\n",i+1,arrivalTime[i],burstTime[i],completionTime[i],turnAroundTime[i],waitingTime[i]);
 	}
 	
 	printf("\n");
