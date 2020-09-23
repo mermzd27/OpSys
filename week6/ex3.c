@@ -23,6 +23,7 @@ int main() {
         temp[i] = burstTime[i];
 
     }
+    //according to the outputs from 3 different scheduling algorithms, I have noticed that First come first served schedulling takes longer time of waiting, because it simply executes processes one by one as in their initial order. However in short job first schedulling, it sorts the processes according to theit burst time and thus short processes are executed first.In round robin schedulling the response time is better because it allocates a specific time quantum for one process at the time, although the waiting time might be big because processe need to wait for time quantum in the queue.
 
     printf("\nenter time quantum:\t");
     scanf("%d", &timeQuantum);
