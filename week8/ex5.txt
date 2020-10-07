@@ -1,0 +1,1 @@
+Physical memory is usually faster thatn virtusal memory, for example if we compare virtual memory with RAM. Plus virtual memory is usually larger in size than physical one, that is why we can use virtual memory when there is not enough physical memory for some process.
