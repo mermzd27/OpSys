@@ -1,0 +1,3 @@
+Machine has 16-bit virtual addresses, thus there are 2^16 bytes in total
+We also have 8KB of pages, which is equal to 8192 bytes, which is 2^13. if we divide these 2 values we get the amount of entries for single-level linear page table, which is:
+2^16-2^13=2^3=8 
