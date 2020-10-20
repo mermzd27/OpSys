@@ -1,0 +1,29 @@
+ex1_1.txt  ex1_2.txt  _ex1.txt  ex1.txt  _ex3.txt
+
+итого 4
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_1.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_2.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 _ex1.txt
+-rw-rw-r-- 1 dana dana 294 окт 20 13:56 ex1.txt
+-rw-rw-r-- 1 dana dana   0 окт 20 13:54 _ex3.txt
+
+итого 4
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_1.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_2.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 _ex1.txt
+-rw-rw-r-- 1 dana dana 294 окт 20 13:56 ex1.txt
+-rw-rw-r-x 1 dana dana   0 окт 20 13:54 _ex3.txt
+
+итого 4
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_1.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_2.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 _ex1.txt
+-rw-rw-r-- 1 dana dana 294 окт 20 13:56 ex1.txt
+-rwxr--r-x 1 dana dana   0 окт 20 13:54 _ex3.txt
+
+итого 4
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_1.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 ex1_2.txt
+-rw-rw-r-- 3 dana dana   0 окт 20 13:40 _ex1.txt
+-rw-rw-r-- 1 dana dana 294 окт 20 13:56 ex1.txt
+-rwxrwxrwx 1 dana dana   0 окт 20 13:54 _ex3.txt
