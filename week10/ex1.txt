@@ -1,0 +1,5 @@
+1312729 drwxrwxr-x 2 dana dana 4096 окт 20 13:49 .
+1313326 drwxrwxr-x 7 dana dana 4096 окт 20 13:30 ..
+1326835 -rw-rw-r-- 3 dana dana    0 окт 20 13:40 ex1_1.txt
+1326835 -rw-rw-r-- 3 dana dana    0 окт 20 13:40 ex1_2.txt
+1326835 -rw-rw-r-- 3 dana dana    0 окт 20 13:40 _ex1.txt
