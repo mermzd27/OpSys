@@ -1,0 +1,9 @@
+	link ../week1/file.txt _ex2.txt
+	ls -i _ex2.txt
+1326986 _ex2.txt
+ 	find ../week1/file.txt -inum 1326986
+../week1/file.txt
+	find ../ -inum 1326986
+..//week1/file.txt
+..//week10/_ex2.txt
+	find ../ -inum 1326986 -exec rm {} \;
