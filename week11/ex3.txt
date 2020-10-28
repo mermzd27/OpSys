@@ -1,0 +1,3 @@
+ex3.1 has 2 Hello's and ex3.2 has 1 Hello and blank space, because in second file we have "\n" after Hello
+This "\n" goes to the buffer and it is copied by child, but not Hello itself
+So fork will call "\n" again. While in ex3.1 Buffer contains Hello word and prints it again
