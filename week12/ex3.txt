@@ -1,0 +1,81 @@
+As we can see below, Buffer Size affects the speed of the program, so if buffer is smaller, program will be slower.
+Moreover, after setting O_SYNC flag, due to guaranteed transfer to the disk program works slower than before. 
+----------------------------------------------------------------------------------
+
+time ./copy fileA.txt fileB.txt
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.003s
+
+-DBUF_SIZE=1
+time ./copy fileA.txt fileB.txt
+
+real	0m1.483s
+user	0m0.052s
+sys	0m0.287s
+
+-DBUF_SIZE=10
+time ./copy fileA.txt fileB.txt
+
+real	0m0.733s
+user	0m0.007s
+sys	0m0.034s
+
+-DBUF_SIZE=100
+time ./copy fileA.txt fileB.txt
+
+real	0m0.224s
+user	0m0.001s
+sys	0m0.005s
+
+-DBUF_SIZE=10000
+time ./copy fileA.txt fileB.txt
+
+real	0m0.198s
+user	0m0.002s
+sys	0m0.003s
+
+
+
+
+----------------
+WITH O_SYNC flag
+----------------
+
+./copy fileA.txt fileB.txt
+
+real	0m0.563s
+user	0m0.001s
+sys	0m0.006s
+
+-DBUF_SIZE=1
+time ./copy fileA.txt fileB.txt
+
+real	0m3.865s
+user	0m0.071s
+sys	0m2.006s
+
+-DBUF_SIZE=10
+time ./copy fileA.txt fileB.txt
+
+real	0m0.543s
+user	0m0.008s
+sys	0m0.190s
+
+-DBUF_SIZE=100
+time ./copy fileA.txt fileB.txt
+
+real	0m0.256s
+user	0m0.002s
+sys	0m0.023s
+
+-DBUF_SIZE=10000
+time ./copy fileA.txt fileB.txt
+
+real	0m0.198s
+user	0m0.002s
+sys	0m0.004s
+
+
+
